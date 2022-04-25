@@ -1,0 +1,65 @@
+body{
+    margin: auto;
+    width: 60%;
+    background-image: url(dogs.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 218, 53);
+    color: aliceblue;
+    text-align: center;
+}
+
+div{
+    background-color:rgb(255, 245, 159);
+}
+
+h1, h2, h3, p{
+    color: coral;
+    text-align: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li h1{
+    font-size: 45px;
+}
+
+section form ul li{
+    list-style: none;
+    color: coral;
+}
+
+section form ul li{
+    font-size: 22px;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+section button{
+    margin: 5px;
+    font-size: 20px;
+}
+
+table, th, td{
+    border: 2px solid coral;
+    color: coral;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button{
+    background-color: coral;
+    color: white;
+    border-color: coral;
+}
